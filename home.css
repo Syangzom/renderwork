@@ -1,0 +1,80 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding:5px;
+    background-color: aquamarine;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    padding:5px;
+    text-align: center;
+    background-image:url(head.jpg);
+    display:block;
+    padding:20px;
+    height:30vh;
+    
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 75px;
+   padding-top:50px;
+   color:green;
+   font-weight: 300;
+   text-shadow: 2px 2px 2px #2f2f2f;
+}
+
+h3{
+    color:blue;
+    font-weight: bolder ;
+    padding-left:75px;
+}
+.leftcolumn{
+    float:left;
+    width:20%;
+    padding:5px;
+
+}
+
+.card-img{
+    width:250px;
+    height:70vh;
+    float:left;
+}
+
+.card-title{
+    color:black;
+}
+
+.rightcolumn{
+    float:right;
+    width:80%;
+    
+}
+
+.booktype{
+    padding-left:500px;
+    color:blueviolet;
+    font-weight: 300;
+    padding-top: 0px;
+    text-align: center;
+    
+}
+
+.bookimg1{
+    width:30%;
+    height:35vh;
+    border-radius: 25px;
+    border-color: darkred;
+    
+}
+
+.bookimg{
+    float:right;
+    padding:10px;
+}
+
